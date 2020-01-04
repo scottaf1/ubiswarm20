@@ -13,7 +13,9 @@
         },
         "categories": {
             "auth": {
-                "ubiswarm2027c7e37c": {}
+                "ubiswarm2027c7e37c": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"173921957026-c087jr9ffaf69e3qsv9s5aju54h90ksb.apps.googleusercontent.com\",\"client_secret\":\"SQv9gHFNaspJi4_BPxa2bsKZ\"}]"
+                }
             }
         }
     }

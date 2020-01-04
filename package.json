@@ -2,6 +2,7 @@
     "name": "fuse-react-app",
     "version": "3.3.0",
     "private": true,
+    "homepage" : "http://biswarm20-20200103183528-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
     "dependencies": {
         "@date-io/date-fns": "1.3.13",
         "@date-io/moment": "1.3.13",

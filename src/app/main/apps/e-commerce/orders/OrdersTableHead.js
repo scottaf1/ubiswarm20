@@ -15,7 +15,7 @@ const rows = [
         id            : 'reference',
         align         : 'left',
         disablePadding: false,
-        label         : 'Reference',
+        label         : 'CASE#',
         sort          : true
     },
     {

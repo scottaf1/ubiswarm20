@@ -21,7 +21,7 @@ function OrdersHeader(props)
                 </FuseAnimate>
 
                 <FuseAnimate animation="transition.slideLeftIn" delay={300}>
-                    <Typography className="hidden sm:flex" variant="h6">Orders</Typography>
+                    <Typography className="hidden sm:flex" variant="h6">Cases</Typography>
                 </FuseAnimate>
             </div>
 

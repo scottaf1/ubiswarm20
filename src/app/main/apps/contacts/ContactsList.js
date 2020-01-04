@@ -110,7 +110,7 @@ function ContactsList(props)
                         sortable : false
                     },
                     {
-                        Header    : "First Name",
+                        Header    : "Case Name",
                         accessor  : "name",
                         filterable: true,
                         className : "font-bold"
