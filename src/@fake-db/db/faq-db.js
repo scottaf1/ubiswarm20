@@ -3,7 +3,7 @@ import mock from './../mock';
 const faqDB = [
     {
         'id'      : '1',
-        'question': 'Proident tempor est nulla irure ad est?',
+        'question': 'Mock data tempor est nulla irure ad est?',
         'answer'  : 'Id nulla nulla proident deserunt deserunt proident in quis. Cillum reprehenderit labore id anim laborum.'
     },
     {

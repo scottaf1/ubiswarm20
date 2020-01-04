@@ -14,7 +14,7 @@ import {StylesProvider, jssPreset, createGenerateClassName} from '@material-ui/s
 import {MuiPickersUtilsProvider} from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
 import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
+import awsconfig from '../aws-exports';
 //import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
 Amplify.configure(awsconfig);
