@@ -15,7 +15,7 @@ import {MuiPickersUtilsProvider} from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
 import Amplify from 'aws-amplify';
 import awsconfig from '../aws-exports';
-//import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
+import { withAuthenticator } from 'aws-amplify-react';
 
 Amplify.configure(awsconfig);
 
@@ -26,6 +26,43 @@ const jss = create({
 });
 
 const generateClassName = createGenerateClassName();
+
+const signUpConfig = {
+  header: 'KSwarm Registration',
+  hideAllDefaults: true,
+  defaultCountryCode: '1',
+  signUpFields: [
+    {
+      label: 'My user name',
+      key: 'username',
+      required: true,
+      displayOrder: 1,
+      type: 'string'
+    },
+    {
+      label: 'Password',
+      key: 'password',
+      required: true,
+      displayOrder: 2,
+      type: 'password'
+    },
+    {
+      label: 'PhoneNumber',
+      key: 'phone_number',
+      required: true,
+      displayOrder: 3,
+      type: 'string'
+    },
+    {
+      label: 'Email',
+      key: 'email',
+      required: true,
+      displayOrder: 4,
+      type: 'string'
+    }
+  ]
+};
+const usernameAttributes = 'My user name';
 
 const App = () => {
     return (
@@ -53,4 +90,7 @@ const App = () => {
     );
 };
 
-export default withAuthenticator(App, true);
+export default withAuthenticator(App, {
+  signUpConfig,
+  usernameAttributes
+});
