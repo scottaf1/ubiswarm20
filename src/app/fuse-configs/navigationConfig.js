@@ -488,6 +488,12 @@ const navigationConfig = [
                                 'url'  : '/ui/page-layouts/simple/full-width'
                             },
                             {
+                              'id'   : 'blank2',
+                              'title': 'Blank2',
+                              'type' : 'item',
+                              'url'  : '/ui/page-layouts/blank2'
+                            },
+                            {
                                 'id'   : 'simple-left-sidebar',
                                 'title': 'Left Sidebar',
                                 'type' : 'item',

@@ -1,5 +1,5 @@
 projects:
-  Ubiswarmgraphql-prod:
+  kswarm20gql:
     schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
@@ -10,9 +10,6 @@ projects:
         codeGenTarget: javascript
         generatedFileName: ''
         docsFilePath: src/graphql
-        region: us-east-1
-        apiId: se7ltxlc3jarfel3p2rkd4qbs4
-        maxDepth: 2
 extensions:
   amplify:
     version: 3

@@ -12,6 +12,10 @@ export const UserInterfaceConfig = {
             component: React.lazy(() => import('./page-layouts/blank'))
         },
         {
+            path     : '/ui/page-layouts/blank2',
+            component: React.lazy(() => import('./page-layouts/blank2'))
+        },
+        {
             path     : '/ui/icons',
             component: React.lazy(() => import('./icons/IconsUI'))
         },
@@ -25,4 +29,3 @@ export const UserInterfaceConfig = {
         }
     ]
 };
-
