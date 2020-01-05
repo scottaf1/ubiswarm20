@@ -537,6 +537,12 @@ const navigationConfig = [
                         'type' : 'item',
                         'url'  : '/ui/page-layouts/blank'
                     }
+                    {
+                        'id'   : 'blank2',
+                        'title': 'Blank2',
+                        'type' : 'item',
+                        'url'  : '/ui/page-layouts/blank2'
+                    }
                 ]
             }
         ]
