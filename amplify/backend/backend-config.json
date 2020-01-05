@@ -12,21 +12,5 @@
 			"dependsOn": []
 		}
 	},
-	"api": {
-		"kswarmgqlapi20": {
-			"service": "AppSync",
-			"providerPlugin": "awscloudformation",
-			"output": {
-				"authConfig": {
-					"additionalAuthenticationProviders": [],
-					"defaultAuthentication": {
-						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
-						"userPoolConfig": {
-							"userPoolId": "authubiswarm2027c7e37c"
-						}
-					}
-				}
-			}
-		}
-	}
+	"api": {}
 }
