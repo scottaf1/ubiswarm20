@@ -13,11 +13,11 @@ import {create} from 'jss';
 import {StylesProvider, jssPreset, createGenerateClassName} from '@material-ui/styles';
 import {MuiPickersUtilsProvider} from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
-import Amplify from 'aws-amplify';
-import awsconfig from '../aws-exports';
-import { withAuthenticator } from 'aws-amplify-react';
-
-Amplify.configure(awsconfig);
+// import Amplify from 'aws-amplify';
+// import awsconfig from '../aws-exports';
+// import { withAuthenticator } from 'aws-amplify-react';
+//
+// Amplify.configure(awsconfig);
 
 const jss = create({
     ...jssPreset(),
@@ -90,7 +90,4 @@ const App = () => {
     );
 };
 
-export default withAuthenticator(App, {
-  signUpConfig,
-  usernameAttributes
-});
+export default App;
